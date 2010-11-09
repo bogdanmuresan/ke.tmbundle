@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>ke</string>
+        <key>uuid</key>
+        <string>4E5415C0-D796-4290-8877-8DFE0DC20CF4</string>
+        <key>mainMenu</key>
+        <dict>
+            <key>items</key>
+            <array>
+                <string>------------------------------------</string>
+                <string>85EFC61B-3047-4063-969A-43DB286AA3B3</string>
+                <string>FB3EDB25-AA05-470C-9907-6C1D841CE7CF</string>
+            </array>
+        </dict>
+    </dict>
+</plist>

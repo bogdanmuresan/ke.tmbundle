@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>COMPARE_NUMBERS_EX</string>
+        <key>uuid</key>
+        <string>85EFC61B-3047-4063-969A-43DB286AA3B3</string>
+        <key>tabTrigger</key>
+        <string>compare_numbers_ex</string>
+        <key>content</key>
+        <string>|COMPARE_NUMBERS_EX(${1:number1};${2:number2};${3:identifier})|
+
+|SHOW_ON_COMPARE_NUMBERS_GREATER_START_${4:${3/(.*)/\U$1/}}|
+	${0:&lt;!--show block if $1 &gt; $2 --&gt;}
+|SHOW_ON_COMPARE_NUMBERS_GREATER_END_${5:${3/(.*)/\U$1/}}|
+
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_START_${6:${3/(.*)/\U$1/}}|
+	&lt;!--show block if $1 == $2 --&gt;
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_END_${7:${3/(.*)/\U$1/}}|
+
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_START_${8:${3/(.*)/\U$1/}}|
+	&lt;!--show block if $1 &lt; $2 --&gt;
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_END_${9:${3/(.*)/\U$1/}}|
+</string>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>
