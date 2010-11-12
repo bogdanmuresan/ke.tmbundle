@@ -7,7 +7,7 @@
         <key>uuid</key>
         <string>85EFC61B-3047-4063-969A-43DB286AA3B3</string>
         <key>tabTrigger</key>
-        <string>compare_numbers_ex</string>
+        <string>cne</string>
         <key>content</key>
         <string>|COMPARE_NUMBERS_EX(${1:number1};${2:number2};${3:identifier})|
 
@@ -24,6 +24,6 @@
 |SHOW_ON_COMPARE_NUMBERS_SMALLER_END_${9:${3/(.*)/\U$1/}}|
 </string>
         <key>scope</key>
-        <string></string>
+        <string>text.html</string>
     </dict>
 </plist>

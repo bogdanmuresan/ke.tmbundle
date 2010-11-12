@@ -7,7 +7,7 @@
         <key>uuid</key>
         <string>FB3EDB25-AA05-470C-9907-6C1D841CE7CF</string>
         <key>tabTrigger</key>
-        <string>ke_generic_switch</string>
+        <string>kgs</string>
         <key>content</key>
         <string>|KE_GENERIC_SWITCH(${1:name},${2:_comma_delimited_list_})|
 
@@ -17,8 +17,9 @@
 
 |HIDE_ON_SWITCH_CASE_START_${5:${2/(.*)/\U$1/}}|
 	&lt;!--hide block of code--&gt;
-|HIDE_ON_SWITCH_CASE_END_${6:${2/(.*)/\U$1/}}|</string>
+|HIDE_ON_SWITCH_CASE_END_${6:${2/(.*)/\U$1/}}|
+</string>
         <key>scope</key>
-        <string></string>
+        <string>text.html</string>
     </dict>
 </plist>
