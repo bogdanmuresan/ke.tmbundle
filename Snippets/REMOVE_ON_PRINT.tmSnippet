@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>REMOVE_ON_PRINT</string>
+        <key>uuid</key>
+        <string>8FF12D22-0B3F-4A54-A456-B9E695DF93AA</string>
+        <key>tabTrigger</key>
+        <string>rop</string>
+        <key>content</key>
+        <string>|START_REMOVE_ON_PRINT|
+	${1:hide on print}
+|END_REMOVE_ON_PRINT|</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

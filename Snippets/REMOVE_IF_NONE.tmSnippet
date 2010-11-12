@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>REMOVE_IF_NONE</string>
+        <key>uuid</key>
+        <string>87731AC9-DEDD-4297-9125-0BAB9E52E635</string>
+        <key>tabTrigger</key>
+        <string>rin</string>
+        <key>content</key>
+        <string>|START_REMOVE_IF_NONE_${1:field_name}|
+	${2:hide is field_name value is '&lt;none&gt;' or ''1}
+|END_REMOVE_IF_NONE_$1|</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

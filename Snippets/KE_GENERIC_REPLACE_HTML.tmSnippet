@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>KE_GENERIC_REPLACE_HTML</string>
+        <key>uuid</key>
+        <string>B189F44A-5507-4874-A6AD-8A4FA9D594FF</string>
+        <key>tabTrigger</key>
+        <string>kgrh</string>
+        <key>content</key>
+        <string>|KE_GENERIC_REPLACE_HTML(${1:haystack},${2:replace},${3:needle})|</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>
