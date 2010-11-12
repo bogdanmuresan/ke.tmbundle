@@ -3,16 +3,14 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>REMOVE_ON_PRINT</string>
+        <string>KE_GENERIC_BUILD_SNIPPET</string>
         <key>uuid</key>
-        <string>8FF12D22-0B3F-4A54-A456-B9E695DF93AA</string>
+        <string>1F4A2FD1-1B6A-44E0-AF59-7EDDD9DB712F</string>
+        <key>tabTrigger</key>
+        <string>kgbs</string>
         <key>content</key>
-        <string>|START_REMOVE_ON_PRINT|
-	${1:hide on print}
-|END_REMOVE_ON_PRINT|</string>
+        <string>|KE_GENERIC_BUILD_SNIPPET(${1:snippet_code};${2:param_1};${3:param_2};${4:param_n})|</string>
         <key>scope</key>
         <string>text.html</string>
-        <key>tabTrigger</key>
-        <string>rop</string>
     </dict>
 </plist>

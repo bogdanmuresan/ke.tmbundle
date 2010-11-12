@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>DATE</string>
+        <key>uuid</key>
+        <string>116ED5D3-6423-40F2-BB0C-B174A9F18D5C</string>
+        <key>tabTrigger</key>
+        <string>d</string>
+        <key>content</key>
+        <string>`date=$( date "+%m/%d/%y");
+echo "|DATE(DATE_SHORT,$date)|";
+echo "|DATE(DATE_STANDARD,$date)|";
+echo "|DATE(DATE_EXPANDED,$date)|";
+echo "|DATE(DATE_EXPANDED_FULL,$date)|";
+echo "|DATE(DATETIME_STANDARD,$date)|";
+echo "|DATE(DATE_YEAR_SHORT,$date)|";
+echo "|DATE(DATE_YEAR_LONG,$date)|";
+echo "|DATE(DATE_MONTH,$date)|";
+echo "|DATE(DATE_WEEKOFMONTH,$date)|";
+echo "|DATE(DATE_WEEKOFYEAR,$date)|";
+echo "|DATE(DATE_DAYOFWEEK,$date)|";
+echo "|DATE(DATE_DAYOFMONTH,$date)|";
+echo "|DATE(DATE_DAYOFYEAR,$date)|";
+echo "|DATE(DATE_HOUR_SHORT,$date)|";
+echo "|DATE(DATE_HOUR_LONG,$date)|";
+echo "|DATE(DATE_MINUTE,$date)|";
+echo "|DATE(DATE_SECOND,$date)|";
+echo "|DATE(DATE_MILISECOND,$date)|";`</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

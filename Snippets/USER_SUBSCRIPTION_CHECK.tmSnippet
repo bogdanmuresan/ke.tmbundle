@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>USER_SUBSCRIPTION_CHECK</string>
+        <key>uuid</key>
+        <string>2729A046-9393-47AE-B46E-AE681836BE06</string>
+        <key>tabTrigger</key>
+        <string>usc</string>
+        <key>content</key>
+        <string>|USER_SUBSCRIPTION_CHECK(${1:service_1},${2:service_2},${3:service_n})|
+
+|SHOW_ONNONSUBSCRIPTION_START_${4:${1/(.*)/\U$1/}}|
+|SHOW_ONNONSUBSCRIPTION_END_${5:${1/(.*)/\U$1/}}|
+
+|SHOW_ONSUBSCRIPTION_START_${6:${1/(.*)/\U$1/}}|
+|SHOW_ONSUBSCRIPTION_END_${7:${1/(.*)/\U$1/}}|</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>

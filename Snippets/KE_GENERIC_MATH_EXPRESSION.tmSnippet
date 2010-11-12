@@ -3,16 +3,14 @@
 <plist version="1.0">
     <dict>
         <key>name</key>
-        <string>REMOVE_ON_PRINT</string>
+        <string>KE_GENERIC_MATH_EXPRESSION</string>
         <key>uuid</key>
-        <string>8FF12D22-0B3F-4A54-A456-B9E695DF93AA</string>
+        <string>917895D4-1F0B-499B-A1E2-5BBA6F54D890</string>
+        <key>tabTrigger</key>
+        <string>kgme</string>
         <key>content</key>
-        <string>|START_REMOVE_ON_PRINT|
-	${1:hide on print}
-|END_REMOVE_ON_PRINT|</string>
+        <string>|KE_GENERIC_MATH_EXPRESSION(${1:math_expression};2;.;,)|</string>
         <key>scope</key>
         <string>text.html</string>
-        <key>tabTrigger</key>
-        <string>rop</string>
     </dict>
 </plist>

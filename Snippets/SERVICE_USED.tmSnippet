@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>SERVICE_USED</string>
+        <key>uuid</key>
+        <string>CDDA9773-82F4-40A3-B116-BF92F96BBE51</string>
+        <key>tabTrigger</key>
+        <string>su</string>
+        <key>content</key>
+        <string>|SERVICE_USED(${1:service_1},${2:service_2},${3:service_n})|
+
+|SHOW_ONSERVICEUSED_START_${4:${1/(.*)/\U$1/}}|
+|SHOW_ONSERVICEUSED_END_${5:${1/(.*)/\U$1/}}|
+
+|HIDE_ONSERVICEUSED_START_${6:${1/(.*)/\U$1/}}|
+|HIDE_ONSERVICEUSED_END_${7:${1/(.*)/\U$1/}}|</string>
+        <key>scope</key>
+        <string>text.html</string>
+    </dict>
+</plist>
