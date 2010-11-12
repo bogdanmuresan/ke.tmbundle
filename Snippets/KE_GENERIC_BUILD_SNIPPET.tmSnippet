@@ -9,7 +9,7 @@
         <key>tabTrigger</key>
         <string>kgbs</string>
         <key>content</key>
-        <string>|KE_GENERIC_BUILD_SNIPPET(${1:snippet_code};${2:param_1};${3:param_2};${4:param_n})|</string>
+        <string>|KE_GENERIC_BUILD_SNIPPET(${1:snippet_code|tr "[a-z]" "[A-Z]"};${2:param_1};${3:param_2};${4:param_n})|</string>
         <key>scope</key>
         <string>text.html</string>
     </dict>

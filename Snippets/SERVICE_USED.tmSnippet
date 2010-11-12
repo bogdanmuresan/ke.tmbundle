@@ -9,13 +9,13 @@
         <key>tabTrigger</key>
         <string>su</string>
         <key>content</key>
-        <string>|SERVICE_USED(${1:service_1},${2:service_2},${3:service_n})|
+        <string>|SERVICE_USED(${1:service_1|tr "[a-z]" "[A-Z]"},${2:service_2|tr "[a-z]" "[A-Z]"},${3:service_n|tr "[a-z]" "[A-Z]"})|
 
-|SHOW_ONSERVICEUSED_START_${4:${1/(.*)/\U$1/}}|
-|SHOW_ONSERVICEUSED_END_${5:${1/(.*)/\U$1/}}|
+|SHOW_ONSERVICEUSED_START_${4:$1}|
+|SHOW_ONSERVICEUSED_END_${5:$1}|
 
-|HIDE_ONSERVICEUSED_START_${6:${1/(.*)/\U$1/}}|
-|HIDE_ONSERVICEUSED_END_${7:${1/(.*)/\U$1/}}|</string>
+|HIDE_ONSERVICEUSED_START_${6:$1}|
+|HIDE_ONSERVICEUSED_END_${7:$1}|</string>
         <key>scope</key>
         <string>text.html</string>
     </dict>

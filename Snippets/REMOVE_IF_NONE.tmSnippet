@@ -9,7 +9,7 @@
         <key>tabTrigger</key>
         <string>rin</string>
         <key>content</key>
-        <string>|START_REMOVE_IF_NONE_${1:field_name}|
+        <string>|START_REMOVE_IF_NONE_${1:field_name|tr "[a-z]" "[A-Z]" }|
 	${2:hide is field_name value is '&lt;none&gt;' or ''1}
 |END_REMOVE_IF_NONE_$1|</string>
         <key>scope</key>

@@ -9,7 +9,7 @@
         <key>tabTrigger</key>
         <string>kgme</string>
         <key>content</key>
-        <string>|KE_GENERIC_MATH_EXPRESSION(${1:math_expression};2;.;,)|</string>
+        <string>|KE_GENERIC_MATH_EXPRESSION(${1:math_expression|tr "[a-z]" "[A-Z]"};2;.;,)|</string>
         <key>scope</key>
         <string>text.html</string>
     </dict>

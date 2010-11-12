@@ -9,7 +9,7 @@
         <key>tabTrigger</key>
         <string>kgs</string>
         <key>content</key>
-        <string>|KE_GENERIC_SWITCH(${1:name},${2:_comma_delimited_list_})|
+        <string>|KE_GENERIC_SWITCH(${1:name|tr "[a-z]" "[A-Z]"},${2:_comma_delimited_list_})|
 
 |SHOW_ON_SWITCH_CASE_START_${3:${2/(.*)/\U$1/}}|
 	${0:&lt;!--show block of code--&gt;}

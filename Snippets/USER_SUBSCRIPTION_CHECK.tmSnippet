@@ -9,13 +9,13 @@
         <key>tabTrigger</key>
         <string>usc</string>
         <key>content</key>
-        <string>|USER_SUBSCRIPTION_CHECK(${1:service_1},${2:service_2},${3:service_n})|
+        <string>|USER_SUBSCRIPTION_CHECK(${1:service_1|tr "[a-z]" "[A-Z]"},${2:service_2|tr "[a-z]" "[A-Z]"},${3:service_n|tr "[a-z]" "[A-Z]"})|
 
-|SHOW_ONNONSUBSCRIPTION_START_${4:${1/(.*)/\U$1/}}|
-|SHOW_ONNONSUBSCRIPTION_END_${5:${1/(.*)/\U$1/}}|
+|SHOW_ONNONSUBSCRIPTION_START_${4:$1}|
+|SHOW_ONNONSUBSCRIPTION_END_${5:$1}|
 
-|SHOW_ONSUBSCRIPTION_START_${6:${1/(.*)/\U$1/}}|
-|SHOW_ONSUBSCRIPTION_END_${7:${1/(.*)/\U$1/}}|</string>
+|SHOW_ONSUBSCRIPTION_START_${6:$1}|
+|SHOW_ONSUBSCRIPTION_END_${7:$1}|</string>
         <key>scope</key>
         <string>text.html</string>
     </dict>

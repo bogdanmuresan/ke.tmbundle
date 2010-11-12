@@ -9,19 +9,19 @@
         <key>tabTrigger</key>
         <string>cne</string>
         <key>content</key>
-        <string>|COMPARE_NUMBERS_EX(${1:number1};${2:number2};${3:identifier})|
+        <string>|COMPARE_NUMBERS_EX(${1:number1|tr "[a-z]" "[A-Z]"};${2:number2};${3:identifier})|
 
-|SHOW_ON_COMPARE_NUMBERS_GREATER_START_${4:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_GREATER_START_${4:$3}|
 	${0:&lt;!--show block if $1 &gt; $2 --&gt;}
-|SHOW_ON_COMPARE_NUMBERS_GREATER_END_${5:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_GREATER_END_${5:$3}|
 
-|SHOW_ON_COMPARE_NUMBERS_EQUAL_START_${6:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_START_${6:$3}|
 	&lt;!--show block if $1 == $2 --&gt;
-|SHOW_ON_COMPARE_NUMBERS_EQUAL_END_${7:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_END_${7:$3}|
 
-|SHOW_ON_COMPARE_NUMBERS_SMALLER_START_${8:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_START_${8:$3}|
 	&lt;!--show block if $1 &lt; $2 --&gt;
-|SHOW_ON_COMPARE_NUMBERS_SMALLER_END_${9:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_END_${9:$3}|
 </string>
         <key>scope</key>
         <string>text.html</string>

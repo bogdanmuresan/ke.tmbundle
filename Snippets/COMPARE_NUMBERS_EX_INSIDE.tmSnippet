@@ -9,19 +9,19 @@
         <key>tabTrigger</key>
         <string>cnei|COMPARE_NUMBERS_EX(${1:number1};${2:number2};${3:identifier})|</string>
         <key>content</key>
-        <string>|COMPARE_NUMBERS_EX_INSIDE(${1:number1};${2:number2};${3:identifier})|
+        <string>|COMPARE_NUMBERS_EX_INSIDE(${1:number1|tr "[a-z]" "[A-Z]"};${2:number2};${3:identifier})|
 
-|SHOW_ON_COMPARE_NUMBERS_GREATER_INSIDE_START${4:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_GREATER_INSIDE_START_${4:$3}|
 	${0:&lt;!--show block if $1 &gt; $2 --&gt;}
-|SHOW_ON_COMPARE_NUMBERS_GREATER_INSIDE_END${5:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_GREATER_INSIDE_END_${5:$3}|
 
-|SHOW_ON_COMPARE_NUMBERS_EQUAL_INSIDE_START${6:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_INSIDE_START_${6:$3}|
 	&lt;!--show block if $1 == $2 --&gt;
-|SHOW_ON_COMPARE_NUMBERS_EQUAL_INSIDE_END${7:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_EQUAL_INSIDE_END_${7:$3}|
 
-|SHOW_ON_COMPARE_NUMBERS_SMALLER_INSIDE_START${8:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_INSIDE_START_${8:$3}|
 	&lt;!--show block if $1 &lt; $2 --&gt;
-|SHOW_ON_COMPARE_NUMBERS_SMALLER_INSIDE_END${9:${3/(.*)/\U$1/}}|
+|SHOW_ON_COMPARE_NUMBERS_SMALLER_INSIDE_END_${9:$3}|
 </string>
         <key>scope</key>
         <string>text.html</string>
